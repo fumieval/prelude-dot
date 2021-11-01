@@ -23,6 +23,8 @@ extra-source-files: CHANGELOG.md
 
 library
     exposed-modules:
+        Prelude.Dot
+        Prelude.Dot.Entry
         Prelude.Dot.Text
 
     -- Modules included in this executable, other than Main.
@@ -33,4 +35,4 @@ library
     build-depends:    base ^>=4.16.0.0, text
     hs-source-dirs:   src
     default-language: GHC2021
-    default-extensions: DataKinds
+    default-extensions: DataKinds, TypeFamilies
