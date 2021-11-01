@@ -1,0 +1,1 @@
+A wrapper of standard libraries (ab)using OverloadedRecordDot. Don't take this too seriously!
