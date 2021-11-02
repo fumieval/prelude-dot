@@ -26,6 +26,7 @@ library
         Prelude.Dot
         Prelude.Dot.Entry
         Prelude.Dot.Text
+        Prelude.Dot.HashMap
 
     -- Modules included in this executable, other than Main.
     -- other-modules:
@@ -33,6 +34,9 @@ library
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:    base ^>=4.16.0.0, text
+        , unordered-containers
+        , hashable
+
     hs-source-dirs:   src
     default-language: GHC2021
     default-extensions: DataKinds, TypeFamilies
